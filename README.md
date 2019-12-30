@@ -8,7 +8,7 @@ See [mecab-python3 page](https://pypi.org/project/mecab-python3/).
 
 ## Installation
 
-Only for Cygwin with `gcc-g++` `git` `python37-pip` `python37-devel`:
+Only for Cygwin with `gcc-g++` `python37-pip` `python37-devel`:
 
 ```sh
 pip3.7 install mecab-cygwin

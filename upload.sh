@@ -14,5 +14,6 @@ do rm -fr build
    echo mv $F $B`basename $D`.whl | sh -x
    cd ..
 done
+git status
 twine upload --repository pypi dist/*
 exit 0

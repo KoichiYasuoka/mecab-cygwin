@@ -1,6 +1,6 @@
 # mecab-cygwin
 
-[MeCab](https://github.com/taku910/mecab) Python wrapper for [Cygwin](https://cygwin.com/) by [mecab-python3](https://pypi.org/project/mecab-python3/) with [mecab-cygwin64](https://github.com/KoichiYasuoka/mecab-cygwin64) or [mecab-cygwin32](https://github.com/KoichiYasuoka/mecab-cygwin32).
+[MeCab](https://github.com/taku910/mecab) Python wrapper for [Cygwin](https://cygwin.com/) (UTF-8 only) by [mecab-python3](https://pypi.org/project/mecab-python3/) with [mecab-cygwin64](https://github.com/KoichiYasuoka/mecab-cygwin64) or [mecab-cygwin32](https://github.com/KoichiYasuoka/mecab-cygwin32).
 
 ## Usage
 

@@ -6,7 +6,7 @@ URL="https://github.com/KoichiYasuoka/mecab-cygwin"
 
 setuptools.setup(
   name="mecab-cygwin",
-  version="0.4.2",
+  version="0.5.0",
   description="MeCab Python for Cygwin",
   long_description=long_description,
   long_description_content_type="text/markdown",

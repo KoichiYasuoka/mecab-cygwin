@@ -1,5 +1,6 @@
 #! /bin/sh
 rm -fr dist
+V=`tr . _ < version.txt`
 for D in libs/*
 do rm -fr build *.egg-info
    mkdir -p build/lib/MeCab
@@ -11,7 +12,7 @@ do rm -fr build *.egg-info
    mecab_cygwin-*.whl) B=`expr $F : '\(mecab_cygwin-[^-]*-\)'` ;;
    *) exit 1 ;;
    esac
-   echo mv $F $B`basename $D`.whl | sh -x
+   echo mv $F $B`basename $D | sed s/V/$V/`.whl | sh -x
    cd ..
 done
 git status
